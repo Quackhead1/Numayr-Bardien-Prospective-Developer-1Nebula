@@ -1,0 +1,17 @@
+Front-end Code Challenges
+
+Question 1:
+1) firstDiv would be red and secondDiv would be orange
+2) document.getElementById("firstDiv").style.background = "pink";
+3) document.getElementById("secondDiv").classList.add("yellow-card");
+
+Question 2:
+1) The "==" operation convets the string 5 into an int and then compares, thus returning true
+2) Change the "==" operation to "==="
+
+Question 3:
+1) To making a web page mobile friendly you need to ensure that it is able to adjust to smaller screen sizes.
+	HTML example: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+2) By bundeling .js scripts into one file it allows faster load times, fewer HTTP requests and allows more contole of dependencies.
+3) You have to compile the Sass into CSS as browsers can only understand CSS
+4) You can ensure browser compatibility by using modular code and using ES5 syntax. you can also convet ES6/7 to ES5 using Bable this will alow new JavaScript to format on older browsers
